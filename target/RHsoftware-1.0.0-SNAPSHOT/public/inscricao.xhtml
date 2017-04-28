@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <ui:composition template="/layout.xhtml">
+        <ui:define name="conteudo">            
+            <nav class="navbar navbar-inverse">                                                             
+            </nav>            
+            <ul class="nav navbar-nav navbar-right">                               
+                <li class="dropdown">         
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Opções<span class="caret"></span></a>         
+                    <ul class="dropdown-menu">           
+                        <li><a href="#">Acessar minha conta</a></li>           
+                        <li><a href="#">Sair</a></li>                    
+                    </ul>       
+                </li>      
+            </ul>
+           <ul class="nav nav-pills"> 
+                <li role="presentation"><a href="#">Pos-Graduação</a></li> 
+                <li role="presentation"><a href="#">Processo Seletivo Agendado</a></li> 
+                <li role="presentation"><a href="#">Concurso Publico teste</a></li>
+            </ul>           
+            <div class="panel panel-default">  
+                <div class="panel-heading">Cadastro</div>  
+                <div class="panel-body">
+                    <input type="text" class="form-control" placeholder="Nome Completo" aria-describedby="basic-addon1"></input>
+                    <input type="text" class="form-control" placeholder="Digite seu endereco" aria-describedby="basic-addon1"></input>
+                    <input type="text" class="form-control" placeholder="Localidade" aria-describedby="basic-addon1"></input>
+                </div>
+            </div>
+            
+        </ui:define>
+    </ui:composition>
+</html>
+
